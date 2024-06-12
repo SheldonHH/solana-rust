@@ -13,3 +13,11 @@ Establish Connection to netwk
 ```bash
 solana config set --url https://api.devnet.solana.com
 ```
+
+hello-solana
+```bash
+cd Rust-Solana/hello-solana
+npm cache clean
+npm install
+npm run build:program
+```
